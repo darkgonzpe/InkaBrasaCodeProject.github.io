@@ -1,0 +1,239 @@
+html {
+    font-size: 16px;
+    color: white;
+    
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    background-color: black;
+    overflow-x: hidden;
+    
+}
+
+.banner ul {
+    display: flex;
+    font-family:"Playfair Display";
+    font-size: 1.6rem;
+    justify-content: space-around;
+    width: 100%;
+    opacity: 0.7;
+    padding: 30px 0px 100px 0px;
+}
+
+
+  /*  Main Page  */
+
+
+.main-heading {
+    opacity:0.9 ;
+    font-size: 4rem;
+    font-family: "Playfair Display";
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.main-page {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+#main-image {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 900px;
+    margin: 0;
+    
+}
+
+
+ /* Tradition Section */
+.heading-tradition {
+    font-size: 1.8rem;
+}
+
+.tradition-section {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto; 
+  }
+
+  .tradition-text {
+    max-width: 50%; 
+  }
+
+  .tradition-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: "Playfair Display";
+  }
+
+  .tradition-text p {
+    font-family: "Inter";
+    font-size: 1.17rem;
+    line-height: 1.8;
+  }
+
+  .tradition-image {
+    max-width: 40%; 
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .tradition-image img {
+    width: 100%;
+    border-radius: 10px; 
+  }
+
+   /* Stellar Menu Section */
+
+  .heading-menu {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    font-family: "Inter";
+  }
+
+  .menu-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .menu-text {
+    max-width: 50%;
+  }
+
+  .menu-text h1 {
+    font-family: "Playfair Display";
+    font-size: 2.5rem;
+    line-height: 1.8;
+  }
+
+  .menu-text h2 {
+    font-family: "Abril Fatface";
+    font-style: italic;
+    font-size: 1.35rem;
+    line-height: 1.8;
+  }
+
+  .menu-text p {
+     font-family: "Inter";
+      font-size: 1.22rem;
+      line-height: 1.8;
+  }
+
+  .menu-image {
+    max-width: 40%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .menu-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+
+  /*  Golden Bottom Section  */
+
+  .menu-button-container {
+    text-align: center;
+    margin-top: 30px; 
+    margin-bottom: 50px; 
+  }
+
+  .golden-button {
+    display: inline-block;
+    background: linear-gradient(90deg, #d4af37, #ffcc00); 
+    color: #000; 
+    text-decoration: none; 
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    padding: 15px 30px;
+    border-radius: 25px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    transition: all 0.3s ease; 
+  }
+
+  .golden-button:hover {
+    background: linear-gradient(90deg, #ffcc00, #d4af37); 
+    transform: translateY(-3px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
+  }
+  
+  /*  Our Family    */
+
+  .heading-family {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding-top: 90px;
+    font-family: "Inter";
+  }
+
+
+  .our-team {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+   
+  }
+
+  .our-team img {
+  width:minmax(300px 1fr);
+
+  }
+  
+  .team-worker {
+   text-align: center;
+    
+  }
+
+  .team-worker h1 {
+    font-family: "Playfair Display";
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+    padding-top: 40px;
+  }
+
+  .team-worker h2 {
+    font-family: "Playfair Display";
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+
+  .team-worker P {
+    font-family: "Inter";
+    font-size: 1.17rem;
+    line-height: 1.8;
+    padding: 0 30px;
+    
+  }
+  .team-worker img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+  }
+
+ /*  Thanks for reading my code !  */
